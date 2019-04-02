@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_height="49dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/hp_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="首页"/>
+
+        <TextView
+            android:id="@+id/seller_fragment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="商家"/>
+
+        <TextView
+            android:id="@+id/book_fragment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="书架"/>
+
+        <TextView
+            android:id="@+id/mine_fragment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="我的"/>
+
+    </LinearLayout>
+
+</LinearLayout>
